@@ -22,9 +22,38 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
+        hid: "image",
+        name: "image",
+        content: "http://motivuj-se.cz/cover.png"
+      },
+      {
+        hid: "title",
+        name: "title",
+        content:
+          "🧔 Motivuj-se | Každodenní motivace do posilovny, na led i do kanceláře"
+      },
+      {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
+        content:
+          "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
+      },
+      { hid: "og.name", name: "og.name", content: "🧔 Motivuj-se" },
+      {
+        hid: "og.title",
+        name: "og.title",
+        content: "🧔 Motivuj-se | Budeě bydlet v tvarohárně"
+      },
+      {
+        hid: "og.description",
+        name: "og.description",
+        content:
+          "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
+      },
+      {
+        hid: "og.image",
+        name: "og.image",
+        content: "http://motivuj-se.cz/cover.png"
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
