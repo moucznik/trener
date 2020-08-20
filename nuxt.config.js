@@ -64,17 +64,17 @@ export default {
     templateTitle:
       "🧔 Motivuj-se | Každodenní motivace do posilovny, na led i do kanceláře",
     description:
-      "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
-      lang: 'cs',
-      language: 'Czech',
-      image: 'http://motivuj-se.cz/cover.png',
-      url: 'http://motivuj-se.cz/',
-      og.name: '🧔 Motivuj-se',
-      og.title: '🧔 Motivuj-se | Budeě bydlet v tvarohárně',
-      og.description: 'Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu.',
-      og.locale: 'cs',
-      og.url: 'http://motivuj-se.cz/',
-      og.image: 'http://motivuj-se.cz/cover.png'
+      "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu.",
+    image: "http://motivuj-se.cz/cover.png",
+    url: "http://motivuj-se.cz/",
+    language: 'Czech',
+    "og.name": "🧔 Motivuj-se",
+    "og.title": "🧔 Motivuj-se | Budeě bydlet v tvarohárně",
+    "og.description":
+      "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu.",
+    "og.locale": "cs",
+    "og.url": "http://motivuj-se.cz/",
+    "og.image": "http://motivuj-se.cz/cover.png"
   },
   /*
    ** Content module configuration
