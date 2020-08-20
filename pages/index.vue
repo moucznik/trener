@@ -62,10 +62,38 @@ export default {
       "🧔 Motivuj-se | Každodenní motivace do posilovny, na led i do kanceláře",
     meta: [
       {
+        hid: "image",
+        name: "image",
+        content: "http://motivuj-se.cz/cover.png"
+      },
+      {
+        hid: "title",
+        name: "title",
+        content:
+          "🧔 Motivuj-se | Každodenní motivace do posilovny, na led i do kanceláře"
+      },
+      {
         hid: "description",
         name: "description",
         content:
           "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
+      },
+      { hid: "og.name", name: "og.name", content: "🧔 Motivuj-se" },
+      {
+        hid: "og.title",
+        name: "og.title",
+        content: "🧔 Motivuj-se | Budeě bydlet v tvarohárně"
+      },
+      {
+        hid: "og.description",
+        name: "og.description",
+        content:
+          "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
+      },
+      {
+        hid: "og.image",
+        name: "og.image",
+        content: "http://motivuj-se.cz/cover.png"
       }
     ]
   },
@@ -321,7 +349,7 @@ export default {
         return { title: c, cards: this.cards.filter(ca => ca.category === c) };
       });
     }
-  },
+  }
 };
 </script>
 
