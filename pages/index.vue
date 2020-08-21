@@ -4,6 +4,9 @@
       <div class="text-center">
         <h2 class="text-uppercase h1">🧔🏒</h2>
         <h1 class="my-title">Motivuj-se</h1>
+        <h3 class="h3">
+          Seznam hlášek od trenéra. Stačí kliknout a uslyšíte to sami!
+        </h3>
       </div>
 
       <div v-for="cat in mapT" :key="cat.title">
@@ -385,6 +388,10 @@ export default {
   font-size: 26px;
 }
 
+.h3 {
+  font-weight: 400;
+}
+
 .h1 {
   font-size: 30px;
 }
@@ -402,6 +409,13 @@ export default {
   align-items: center;
   color: #2f4082;
   background: white !important;
+  user-select: none;
+  transition: all 0.5s;
+
+  &:hover {
+    transition: all 0.5s;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.12);
+  }
 }
 
 @media only screen and (max-width: 600px) {
