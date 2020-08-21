@@ -44,7 +44,7 @@ export default {
       {
         hid: "og:title",
         name: "og:title",
-        content: "🧔 Motivuj-se | Budeě bydlet v tvarohárně"
+        content: "🧔 Motivuj-se | Budeš bydlet v tvarohárně"
       },
       {
         hid: "og:description",
@@ -55,6 +55,7 @@ export default {
       {
         hid: "og:image",
         name: "og:image",
+        property: "og:image",
         content: "http://motivuj-se.cz/cover.png"
       }
     ],

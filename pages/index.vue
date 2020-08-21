@@ -82,7 +82,7 @@ export default {
       {
         hid: "og:title",
         name: "og:title",
-        content: "🧔 Motivuj-se | Budeě bydlet v tvarohárně"
+        content: "🧔 Motivuj-se | Budeš bydlet v tvarohárně"
       },
       {
         hid: "og:description",
@@ -111,7 +111,7 @@ export default {
       url: "http://motivuj-se.cz/",
       language: "Czech",
       "og.name": "🧔 Motivuj-se",
-      "og.title": "🧔 Motivuj-se | Budeě bydlet v tvarohárně",
+      "og.title": "🧔 Motivuj-se | Budeš bydlet v tvarohárně",
       "og.description":
         "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu.",
       "og.locale": "cs",
