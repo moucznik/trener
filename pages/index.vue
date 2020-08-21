@@ -2,8 +2,8 @@
   <div class="bg">
     <v-container>
       <div class="text-center">
-        <h1 class="text-uppercase h1">🧔🏒</h1>
-        <h2 class="my-title">Motivuj-se</h2>
+        <h2 class="text-uppercase h1">🧔🏒</h2>
+        <h1 class="my-title">Motivuj-se</h1>
       </div>
 
       <div v-for="cat in mapT" :key="cat.title">
@@ -78,21 +78,21 @@ export default {
         content:
           "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
       },
-      { hid: "og.name", name: "og.name", content: "🧔 Motivuj-se" },
+      { hid: "og:name", name: "og:name", content: "🧔 Motivuj-se" },
       {
-        hid: "og.title",
-        name: "og.title",
+        hid: "og:title",
+        name: "og:title",
         content: "🧔 Motivuj-se | Budeě bydlet v tvarohárně"
       },
       {
-        hid: "og.description",
-        name: "og.description",
+        hid: "og:description",
+        name: "og:description",
         content:
           "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
       },
       {
-        hid: "og.image",
-        name: "og.image",
+        hid: "og:image",
+        name: "og:image",
         content: "http://motivuj-se.cz/cover.png"
       }
     ]

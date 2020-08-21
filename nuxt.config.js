@@ -40,21 +40,21 @@ export default {
         content:
           "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
       },
-      { hid: "og.name", name: "og.name", content: "🧔 Motivuj-se" },
+      { hid: "og:name", name: "og:name", content: "🧔 Motivuj-se" },
       {
-        hid: "og.title",
-        name: "og.title",
+        hid: "og:title",
+        name: "og:title",
         content: "🧔 Motivuj-se | Budeě bydlet v tvarohárně"
       },
       {
-        hid: "og.description",
-        name: "og.description",
+        hid: "og:description",
+        name: "og:description",
         content:
           "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu."
       },
       {
-        hid: "og.image",
-        name: "og.image",
+        hid: "og:image",
+        name: "og:image",
         content: "http://motivuj-se.cz/cover.png"
       }
     ],
@@ -77,7 +77,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ["@nuxtjs/vuetify"],
+  buildModules: ["@nuxtjs/vuetify", "@nuxtjs/google-analytics"],
   /*
    ** Nuxt.js modules
    */
@@ -87,6 +87,28 @@ export default {
     // Doc: https://github.com/nuxt/content
     "@nuxt/content"
   ],
+  pwa: {
+    meta: {
+      "apple-mobile-web-app-capable": "true",
+      ogSiteName: "Motivuj-se",
+      ogTitle: "🧔 Motivuj-se ",
+      ogImage: "http://motivuj-se.cz/cover.png"
+    },
+    manifest: {
+      name: "Motivuj-se",
+      author: "Motivuj-se",
+      short_name: ".motiv",
+      start_url: "/",
+      display: "standalone",
+      background_color: "#333333",
+      theme_color: "#333333",
+      orientation: "portrait-primary",
+      lang: "cs-CZ",
+      description:
+        "Každodenní motivace do posilovny, na led i do kanceláře jak je znáte z legednárního záznamu.",
+      appleMobileWebAppStatusBarStyle: "black-translucent"
+    }
+  },
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
